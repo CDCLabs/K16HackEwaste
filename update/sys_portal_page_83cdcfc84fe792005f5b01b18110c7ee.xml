@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2016-05-18 04:44:52">
+<record_update node_type="sys_portal_page" unload_date="2016-05-18 05:25:12">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -28,81 +28,81 @@
         <view>pa_ewaste_open_requests</view>
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone>dropzone0</dropzone>
+                <dropzone>dropzone1</dropzone>
                 <offset>0</offset>
                 <page display_value="PA ewaste open requests">83cdcfc84fe792005f5b01b18110c7ee</page>
-                <summary/>
+                <summary>eWaste Requests</summary>
                 <sys_created_by>Ewanh</sys_created_by>
-                <sys_created_on>2016-05-18 04:29:52</sys_created_on>
-                <sys_id>4a301b8c4fe792005f5b01b18110c73a</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>Ewanh</sys_updated_by>
-                <sys_updated_on>2016-05-18 04:29:52</sys_updated_on>
+                <sys_created_on>2016-05-18 05:09:06</sys_created_on>
+                <sys_id>b039dbc44f2b92005f5b01b18110c7f6</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>patrick.schulte</sys_updated_by>
+                <sys_updated_on>2016-05-18 05:19:05</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2016-05-17 21:29:52">4a301b8c4fe792005f5b01b18110c73a</portal_section>
+                        <portal_section display_value="Created 2016-05-17 22:09:06">b039dbc44f2b92005f5b01b18110c7f6</portal_section>
                         <sys_created_by>Ewanh</sys_created_by>
-                        <sys_created_on>2016-05-18 04:29:52</sys_created_on>
-                        <sys_id>02301b8c4fe792005f5b01b18110c73c</sys_id>
+                        <sys_created_on>2016-05-18 05:09:06</sys_created_on>
+                        <sys_id>3839dbc44f2b92005f5b01b18110c7f7</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>Ewanh</sys_updated_by>
-                        <sys_updated_on>2016-05-18 04:29:52</sys_updated_on>
+                        <sys_updated_on>2016-05-18 05:09:06</sys_updated_on>
                         <value>83cdcfc84fe792005f5b01b18110c7ee</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2016-05-17 21:29:52">4a301b8c4fe792005f5b01b18110c73a</portal_section>
+                        <portal_section display_value="Created 2016-05-17 22:09:06">b039dbc44f2b92005f5b01b18110c7f6</portal_section>
                         <sys_created_by>Ewanh</sys_created_by>
-                        <sys_created_on>2016-05-18 04:29:52</sys_created_on>
-                        <sys_id>06301b8c4fe792005f5b01b18110c73b</sys_id>
+                        <sys_created_on>2016-05-18 05:09:06</sys_created_on>
+                        <sys_id>3c39dbc44f2b92005f5b01b18110c7f6</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>Ewanh</sys_updated_by>
-                        <sys_updated_on>2016-05-18 04:29:52</sys_updated_on>
+                        <sys_updated_on>2016-05-18 05:09:06</sys_updated_on>
                         <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 2016-05-17 21:29:52">4a301b8c4fe792005f5b01b18110c73a</portal_section>
+                        <portal_section display_value="Created 2016-05-17 22:09:06">b039dbc44f2b92005f5b01b18110c7f6</portal_section>
                         <sys_created_by>Ewanh</sys_created_by>
-                        <sys_created_on>2016-05-18 04:29:52</sys_created_on>
-                        <sys_id>4e301b8c4fe792005f5b01b18110c73b</sys_id>
+                        <sys_created_on>2016-05-18 05:09:06</sys_created_on>
+                        <sys_id>7439dbc44f2b92005f5b01b18110c7f7</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>Ewanh</sys_updated_by>
-                        <sys_updated_on>2016-05-18 04:29:52</sys_updated_on>
-                        <value>breakdown</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 2016-05-17 21:29:52">4a301b8c4fe792005f5b01b18110c73a</portal_section>
-                        <sys_created_by>Ewanh</sys_created_by>
-                        <sys_created_on>2016-05-18 04:29:52</sys_created_on>
-                        <sys_id>8a301b8c4fe792005f5b01b18110c73a</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>Ewanh</sys_updated_by>
-                        <sys_updated_on>2016-05-18 04:29:52</sys_updated_on>
-                        <value>c15a72f1d7600200b96d45a3ce6103f8</value>
+                        <sys_updated_on>2016-05-18 05:09:06</sys_updated_on>
+                        <value>time</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2016-05-17 21:29:52">4a301b8c4fe792005f5b01b18110c73a</portal_section>
+                        <portal_section display_value="Created 2016-05-17 22:09:06">b039dbc44f2b92005f5b01b18110c7f6</portal_section>
                         <sys_created_by>Ewanh</sys_created_by>
-                        <sys_created_on>2016-05-18 04:29:52</sys_created_on>
-                        <sys_id>8a301b8c4fe792005f5b01b18110c73b</sys_id>
+                        <sys_created_on>2016-05-18 05:09:06</sys_created_on>
+                        <sys_id>b039dbc44f2b92005f5b01b18110c7f7</sys_id>
+                        <sys_mod_count>2</sys_mod_count>
+                        <sys_updated_by>patrick.schulte</sys_updated_by>
+                        <sys_updated_on>2016-05-18 05:19:05</sys_updated_on>
+                        <value>eWaste Requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-05-17 22:09:06">b039dbc44f2b92005f5b01b18110c7f6</portal_section>
+                        <sys_created_by>Ewanh</sys_created_by>
+                        <sys_created_on>2016-05-18 05:09:06</sys_created_on>
+                        <sys_id>f039dbc44f2b92005f5b01b18110c7f6</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>Ewanh</sys_updated_by>
-                        <sys_updated_on>2016-05-18 04:29:52</sys_updated_on>
-                        <value>Open requests by age</value>
+                        <sys_updated_on>2016-05-18 05:09:06</sys_updated_on>
+                        <value>98f81fc44f2b92005f5b01b18110c72d</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2016-05-17 21:29:52">4a301b8c4fe792005f5b01b18110c73a</portal_section>
+                        <portal_section display_value="Created 2016-05-17 22:09:06">b039dbc44f2b92005f5b01b18110c7f6</portal_section>
                         <sys_created_by>Ewanh</sys_created_by>
-                        <sys_created_on>2016-05-18 04:29:52</sys_created_on>
-                        <sys_id>c6301b8c4fe792005f5b01b18110c73b</sys_id>
+                        <sys_created_on>2016-05-18 05:09:06</sys_created_on>
+                        <sys_id>fc39dbc44f2b92005f5b01b18110c7f6</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>Ewanh</sys_updated_by>
-                        <sys_updated_on>2016-05-18 04:29:52</sys_updated_on>
+                        <sys_updated_on>2016-05-18 05:09:06</sys_updated_on>
                         <value>pa_widget_description</value>
                     </sys_portal_preferences>
                 </related_items_node>

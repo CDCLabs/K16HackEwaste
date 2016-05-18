@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_push_notif_msg">
     <sys_push_notif_msg action="INSERT_OR_UPDATE">
-        <message_string>You have a new request for eWaste - ${number}</message_string>
+        <message_string>${requester} submitted an eWaste request for ${number_of_items} item(s)</message_string>
         <name>eWaste Hardware Pickup</name>
         <push_app display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
         <push_message_content display_value="Generic Record Payload">4f9c2ec0d72102006b0f8ebc5e610327</push_message_content>
@@ -11,7 +11,7 @@
         <sys_created_on>2016-05-18 02:29:13</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d16472cc13a31200d6c753173244b08c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>eWaste Hardware Pickup</sys_name>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
         <sys_policy/>
@@ -19,7 +19,7 @@
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>sys_push_notif_msg_d16472cc13a31200d6c753173244b08c</sys_update_name>
         <sys_updated_by>patrick.schulte</sys_updated_by>
-        <sys_updated_on>2016-05-18 04:23:39</sys_updated_on>
+        <sys_updated_on>2016-05-18 04:59:59</sys_updated_on>
         <table/>
         <type>push</type>
     </sys_push_notif_msg>

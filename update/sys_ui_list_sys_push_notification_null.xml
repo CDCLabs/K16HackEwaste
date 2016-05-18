@@ -88,11 +88,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 04:33:11</sys_created_on>
+            <sys_created_on>2016-05-18 04:58:48</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>32f09f8c4fe792005f5b01b18110c746</sys_id>
+            <sys_id>35d61f044f2b92005f5b01b18110c7f4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>sys_push_notification</sys_name>
             <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
@@ -101,7 +101,7 @@
             <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
             <sys_update_name>sys_ui_list_sys_push_notification_null</sys_update_name>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 04:33:11</sys_updated_on>
+            <sys_updated_on>2016-05-18 04:58:48</sys_updated_on>
             <sys_user display_value="Patrick Schulte">c26902484f2792005f5b01b18110c726</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

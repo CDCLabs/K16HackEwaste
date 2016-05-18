@@ -39,7 +39,7 @@
         <name>x_snc_ewaste_ewaste_request</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -56,7 +56,7 @@
         <sys_created_on>2016-05-18 04:19:01</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>cead030c4fe792005f5b01b18110c7b7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Number of items</sys_name>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
         <sys_policy/>
@@ -64,7 +64,7 @@
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_ewaste_ewaste_request_number_of_items</sys_update_name>
         <sys_updated_by>patrick.schulte</sys_updated_by>
-        <sys_updated_on>2016-05-18 04:20:36</sys_updated_on>
+        <sys_updated_on>2016-05-18 04:58:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Items" section_id="18bfdac84f6792005f5b01b18110c721" sys_domain="global" table="x_snc_ewaste_ewaste_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_snc_ewaste_ewaste_request.x_snc_ewaste_ewaste_item.ewaste_request</element>
+            <position>0</position>
+            <sys_created_by>patrick.schulte</sys_created_by>
+            <sys_created_on>2016-05-18 00:57:52</sys_created_on>
+            <sys_id>20bfdac84f6792005f5b01b18110c742</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Items" display_value="Items" name="x_snc_ewaste_ewaste_request" sys_domain="global" view="Default view">18bfdac84f6792005f5b01b18110c721</sys_ui_section>
+            <sys_updated_by>patrick.schulte</sys_updated_by>
+            <sys_updated_on>2016-05-18 00:57:52</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>patrick.schulte</sys_created_by>
+            <sys_created_on>2016-05-18 00:57:52</sys_created_on>
+            <sys_id>a0bfdac84f6792005f5b01b18110c742</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Items" display_value="Items" name="x_snc_ewaste_ewaste_request" sys_domain="global" view="Default view">18bfdac84f6792005f5b01b18110c721</sys_ui_section>
+            <sys_updated_by>patrick.schulte</sys_updated_by>
+            <sys_updated_on>2016-05-18 00:57:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Items</caption>
+            <header>false</header>
+            <name>x_snc_ewaste_ewaste_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>patrick.schulte</sys_created_by>
+            <sys_created_on>2016-05-18 00:57:51</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18bfdac84f6792005f5b01b18110c721</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Items</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+            <sys_update_name>sys_ui_section_18bfdac84f6792005f5b01b18110c721</sys_update_name>
+            <sys_updated_by>patrick.schulte</sys_updated_by>
+            <sys_updated_on>2016-05-18 00:57:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

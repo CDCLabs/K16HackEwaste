@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" extends="task" label="eWaste Request" max_length="40" name="x_snc_ewaste_ewaste_request" type="collection">
+        <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+    </element>
+</database>

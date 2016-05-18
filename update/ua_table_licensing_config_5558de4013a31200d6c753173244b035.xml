@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="INSERT_OR_UPDATE">
+        <is_fulfillment>true</is_fulfillment>
+        <name>x_snc_ewaste_ewaste_request</name>
+        <owner_condition table="x_snc_ewaste_ewaste_request">opened_by=javascript:gs.getUserID()^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </owner_condition>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>shamshad.admin</sys_created_by>
+        <sys_created_on>2016-05-18 00:25:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5558de4013a31200d6c753173244b035</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_ewaste_ewaste_request</sys_name>
+        <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+        <sys_update_name>ua_table_licensing_config_5558de4013a31200d6c753173244b035</sys_update_name>
+        <sys_updated_by>shamshad.admin</sys_updated_by>
+        <sys_updated_on>2016-05-18 00:25:42</sys_updated_on>
+    </ua_table_licensing_config>
+</record_update>

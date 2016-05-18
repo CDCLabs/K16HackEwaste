@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="eWaste Item" max_length="40" name="x_snc_ewaste_ewaste_item" type="collection">
+        <element label="eWaste Request" max_length="32" name="ewaste_request" reference="x_snc_ewaste_ewaste_request" type="reference"/>
+        <element label="Hardware" max_length="32" name="hardware" reference="cmdb_ci_hardware" type="reference"/>
+        <element label="Picked up" max_length="40" name="picked_up" type="boolean"/>
+        <index name="index">
+            <element name="ewaste_request"/>
+        </index>
+        <index name="index2">
+            <element name="hardware"/>
+        </index>
+    </element>
+</database>

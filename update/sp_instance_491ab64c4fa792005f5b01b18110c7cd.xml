@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">a1827e884fa792005f5b01b18110c772</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Ewanh</sys_created_by>
+        <sys_created_on>2016-05-18 02:53:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>491ab64c4fa792005f5b01b18110c7cd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Jayhawk</sys_name>
+        <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+        <sys_update_name>sp_instance_491ab64c4fa792005f5b01b18110c7cd</sys_update_name>
+        <sys_updated_by>Ewanh</sys_updated_by>
+        <sys_updated_on>2016-05-18 03:01:18</sys_updated_on>
+        <title>Jayhawk</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p style=\"text-align: center;\"><img style=\"max-width: 100%; max-height: 480px;\" src=\"b2db7acc4fa792005f5b01b18110c752.iix\" alt=\"\" /></p>",
+		"displayValue": "<p style=\"text-align: center;\"><img style=\"max-width: 100%; max-height: 480px;\" src=\"b2db7acc4fa792005f5b01b18110c752.iix\" alt=\"\" /></p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+</record_update>

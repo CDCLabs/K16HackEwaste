@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[var barcodeSannerLogCount = 1;
+
+function enterBarcode() {
+   
+   if ('double' == gel('transaction_id').value && gel('f_scan').value == '') {
+      
+      gel('first_scan_help').innerHTML =  'Scan asset tag.';
+      gel('f_scan').value = gel('record_key').value;
+      gel('sn_log').innerHTML = gel('sn_log').innerHTML  + gel('record_key').value + '<br/>';
+      gel('record_key').value = '';
+      gel('failure').style.display="none";
+      gel('failure_msg').style.display="none";
+      gel('failure_link').style.display="none";
+      gel('success').style.display="none";
+      gel('success_msg').style.display="none";
+      gel('success_link').style.display="none";
+      gel('edit_here').style.display="inline";
+      return false;
+   }
+   
+   var ajax = new GlideAjax('ScannerUtil');
+   ajax.addParam('sysparm_name','enter');
+   ajax.addParam('sysparm_template',gel('template_id').value);
+   ajax.addParam('sysparm_op', gel('operation_id').value);
+   ajax.addParam('sysparm_key', gel('record_key').value);
+   ajax.addParam('sysparm_aux_field_1', gel('f_scan').value);  // for double scan mode
+   ajax.getXMLWait();  // synchronous so we can get result
+   
+   var a = ajax.getAnswer();  // [success|failure_link]:href:Asset Tag:operation, or failure:failure message
+   
+   gel('edit_here').style.display="none";
+   gel('failure_msg').innerHTML = '';
+   var answer_components = a.split(':');
+   if (answer_components[0].indexOf('ailure') == -1) {
+      gel('failure').style.display="none";
+      gel('failure_msg').style.display="none";
+      gel('failure_link').style.display="none";
+      gel('success').style.display="inline";
+      gel('success_msg').style.display="inline";
+      gel('success_link').style.display="inline";
+      gel('success_link').href = answer_components[1];
+      gel('success_link').innerHTML = answer_components[2];
+      gel('success_msg').innerHTML = " " + answer_components[3];
+      
+      gel('f_scan').value = '';  // for double scanning
+      if ('double' == gel('transaction_id').value) {
+         gel('first_scan_help').innerHTML =  'Scan serial number.';
+      }
+      else {
+         gel('first_scan_help').innerHTML =  '';
+      }
+      gel('log_count').innerHTML = barcodeSannerLogCount++;
+      
+      //gel('asset_tag_log').innerHTML = gel('asset_tag_log').innerHTML + '<br/>' +  gel('record_key').value;
+      
+      
+      gel('asset_tag_log').innerHTML = gel('asset_tag_log').innerHTML +
+      '<a href=\'' + answer_components[1] + '\' target=\'_blank\'>' + gel('record_key').value  + '<br/></a>';
+      
+      
+      
+   }
+   else if (answer_components[0].indexOf('ailure_link') != -1) {
+      gel('success').style.display="none";
+      gel('success_msg').style.display="none";
+      gel('success_link').style.display="none";
+      
+      gel('failure').style.display="inline";
+      gel('failure_msg').style.display="inline";
+      gel('failure_link').style.display="inline";
+      gel('failure_link').href = answer_components[1];
+      gel('failure_link').innerHTML = answer_components[2];
+      gel('failure_msg').innerHTML = " " + answer_components[3];
+   }
+   else {
+      gel('failure').style.display="inline";
+      gel('failure_link').style.display="none";
+      gel('success').style.display="none";
+      gel('success_msg').style.display="none";
+      gel('success_link').style.display="none";
+      alert("Transaction Failure - " + answer_components[1]);
+      
+      gel('failure_msg').innerHTML = answer_components[1];
+      gel('failure_msg').style.display = 'inline';
+      
+   }
+   
+   
+   gel('record_key').value = '';
+   
+   return false;
+}
+
+function onTemplateClick() {
+   gel('template_decorator_anchor').href = "sys_template.do?sys_id=" + gel('template_id').value;
+}
+
+function clearLog() {
+   gel('asset_tag_log').innerHTML = '';
+   gel('sn_log').innerHTML = '';
+   gel('failure').style.display="none";
+   gel('failure_msg').style.display="none";
+   gel('failure_link').style.display="none";
+   gel('success').style.display="none";
+   gel('success_msg').style.display="none";
+   gel('success_link').style.display="none";
+   gel('log_count').innerHTML = '';
+   barcodeSannerLogCount = 1;
+   gel('edit_here').style.display="inline";
+   
+}
+
+function updateLog(selection) {
+   
+   if ('double' == selection) {
+      
+      // Add serial number column to log
+      gel('sn_label').innerHTML = 'S/N';
+      gel('sn_label').style.textDecoration = 'underline';
+      gel('first_scan_help').innerHTML =  'Scan serial number.';
+   }
+   else {
+      
+      // Remove serial number column from log
+      gel('sn_label').innerHTML = '';
+      gel('first_scan_help').innerHTML =  '';
+   }
+   gel('asset_tag_log').innerHTML = '';
+   gel('sn_log').innerHTML = '';
+   gel('log_count').innerHTML = '';
+   barcodeSannerLogCount = 1;
+}
+
+
+]]></client_script>
+        <description>A form for barcode scanning.  Server side processing is accomplished with Ajax and the ScannerUtil script include.  Supports single and double scan transactions.  Tested in Firefox, Chrome and IE10.</description>
+        <direct>false</direct>
+        <endpoint>x_snc_ewaste_scanner_form.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<form name="scanner_form" onsubmit="return enterBarcode();">
+
+ <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: right; font: 12.0px Helvetica}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    table.t1 {border-collapse: collapse}
+    td.td1 {width: 133.0px; height: 37.0px; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td2 {width: 117.0px; height: 37.0px; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td3 {width: 27.0px; height: 37.0px; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td4 {width: 400.0px; height: 37.0px; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td5 {width: 133.0px; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td6 {width: 117.0px; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td7 {width: 27.0px; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td8 {width: 400.0px; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td9 {width: 200.0px; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td10 {width: 200.0px; padding: 0.0px 5.0px 0.0px 5.0px}
+  </style>
+<input type='hidden' id='f_scan' name='f_scan'></input>
+<p class="p1"><br/></p>
+<p class="p1"><br/></p>
+<p class="p1" style="font:bold 20px Helvetica;">&#160;&#160;&#160;Barcode Scanner Input</p>
+<p class="p1"><br/></p>
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p2">Operation:</p>
+      </td>
+      <td valign="middle" class="td6">
+        <select name="operation_id" id="operation_id" size="1">
+          <option value="insert">Insert</option>
+          <option value="update">Update</option>
+          <option value="insert_update">Insert or Update</option>
+        </select> 
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p1"><br/></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p1"><br/></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p2">Template:</p>
+      </td>
+      <td valign="middle" class="td6">
+        <select name="template_id" id="template_id" size="1">
+
+          <g:evaluate>
+            var template = new GlideRecord('sys_template');
+            template.addQuery('active', true);
+            template.addEncodedQuery('tableSTARTSWITHx_snc_ewaste');
+            template.query();
+          </g:evaluate>
+          <j:if test="${!template.hasNext()}">
+             <j:set var="jvar_current_template" value="" />
+          </j:if>
+          <j:if test="${template._next()}">
+              <j:set var="jvar_current_template" value="${template.sys_id.toString()}" />
+              <option value="${template.sys_id.toString()}">${template.name.toString()}</option>
+          </j:if>
+          <j:while test="${template._next()}">
+             <option value="${template.sys_id.toString()}">${template.name.toString()}</option>
+          </j:while>
+        </select>
+      </td>
+      <td valign="middle" class="td7">
+       <a id="template_decorator_anchor" href="sys_template.do?sys_id=${jvar_current_template}" onclick="onTemplateClick();"> 
+           <img name="template_decorator"
+               id="template_decorator"
+               src="images/icons/hover_icon.gifx"
+               title="${gs.getMessage('Template')}"
+               alt="${gs.getMessage('Template')}"
+               height="16"
+               width="16"
+               style="margin-left: 4px; margin-top: 1px; display: inline;"/>
+      </a>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p1"><br/></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p2">Transaction:</p>
+      </td>
+      <td valign="middle" class="td6">
+        <select name="transaction_id" id="transaction_id" size="1" onChange="updateLog(this.value);">
+          <option value="single">Asset Tag</option>
+          <option value="double">S/N -&gt; Asset Tag</option>
+        </select> 
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p1"><br/></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p1"><br/></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p2">Scanner Input:</p>
+      </td>
+      <td valign="middle" class="td2">
+        <input type="text" id="record_key" name="record_key" size="25"/>
+      </td>
+      <td valign="middle" class="td3">
+   
+          <img name="success"
+               id="success"
+               src="images/check32.gif"
+               title="${gs.getMessage('Scan success!')}"
+               alt="${gs.getMessage('Scan success!')}"
+               height="16"
+               width="16"
+               style="margin-left: 4px; margin-top: 25px; display: none;"/>
+
+          <img name="failure"
+               id="failure"
+               src="images/certify_fail.gif"
+               title="${gs.getMessage('Scan failure!')}"
+               alt="${gs.getMessage('Scan failure!')}"
+               height="16"
+               width="16"
+               style="margin-left: 4px; margin-top: 25px; display: none;"/>
+ 
+          <img name="edit_here"
+               id="edit_here"
+               src="images/icon_edit.gif" 
+               title="${gs.getMessage('Insert cursor into text field then scan barcodes')}"
+               alt="${gs.getMessage('Insert cursor into text field then scan barcodes')}"
+               height="16"
+               width="16"
+               style="margin-left: 4px; margin-top: 25px; display: inline;"/>
+
+        <p class="p1"><br/></p>
+      </td>
+      <td valign="middle" class="td4">
+        <p class="p1">
+           <a id="failure_link" href="alm_hardware.do?sys_id=a11c22526d1a49000c6544cf5ba5ccd5" target="_blank" style="font:bold 12px Helvetica; color: red; display: none;"><br/></a>
+           <span id="failure_msg" style="font:bold 12px Helvetica; display: none; color: red;"><br/></span>
+            <a id="success_link" href="alm_hardware.do?sys_id=a11c22526d1a49000c6544cf5ba5ccd5" target="_blank" style="font:bold 12px Helvetica; color: black; display: none;"><br/></a>          
+           <span id="success_msg" style="display: none; font:bold 12px Helvetica; color:black;"><br/></span>
+        </p>
+      </td>
+    </tr>
+   <tr>
+      <td valign="middle" class="td5">
+        <p class="p1"><br/></p>
+      </td>
+      <td valign="middle" class="td6" colspan = '3'>
+        <p id="first_scan_help" class="p1"></p>
+      </td>
+
+    </tr>
+
+
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p1"><br/></p>
+      </td>
+      <td valign="middle" class="td6">
+        <p class="p1"><br/></p>
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p1"><br/></p>
+      </td>
+      <td valign="middle" class="td8">
+        <p class="p1"><br/></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td5">
+        <p class="p2" style="font:bold 15px Helvetica;">Scan Log</p>
+      </td>
+      <td valign="middle" class="td6">
+        <input id="clear_button" value="Clear" style="width: 60px;" type='button' onclick="clearLog()" />
+      </td>
+      <td valign="middle" class="td7">
+        <p class="p1" id='log_count' name='log_count'><br/></p>
+      </td>
+    </tr>
+
+    <tr>
+      <td valign="bottom" class="td5">
+        <p><br/></p>
+      </td>
+      <td valign="bottom" class="td9">
+        <p style="text-decoration:underline;">Asset Tag</p>
+      </td>
+      <td valign="bottom" class="td10" id="sn_label" name="sn_label">
+        <p style="text-decoration:underline;"></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" class="td5">
+        <p class="p1"><br/></p>
+      </td>
+      <td valign="top" class="td9">
+        <p class="p1" id="asset_tag_log" name="asset_tag_log"></p>
+      </td>
+      <td valign="top" class="td10">
+        <p class="p1"  id="sn_log" name="sn_log"></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</form>
+
+</j:jelly>]]></html>
+        <name>scanner_form</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2013-06-29 17:46:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b8fa42856d1e09000c6544cf5ba5cc40</sys_id>
+        <sys_mod_count>179</sys_mod_count>
+        <sys_name>scanner_form</sys_name>
+        <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+        <sys_update_name>sys_ui_page_b8fa42856d1e09000c6544cf5ba5cc40</sys_update_name>
+        <sys_updated_by>cbui</sys_updated_by>
+        <sys_updated_on>2016-05-18 01:57:58</sys_updated_on>
+    </sys_ui_page>
+</record_update>

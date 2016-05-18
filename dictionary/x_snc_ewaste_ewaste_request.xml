@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" extends="task" label="eWaste Request" max_length="40" name="x_snc_ewaste_ewaste_request" type="collection">
-        <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+    <element attributes="live_feed=true" audit="true" extends="task" label="eWaste Request" max_length="40" name="x_snc_ewaste_ewaste_request" type="collection">
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var items = new GlideRecord('x_snc_ewaste_ewaste_item');&#13;&#10;&#9;items.addQuery('ewaste_request', current.sys_id);&#13;&#10;&#9;items.query();&#13;&#10;&#9;&#13;&#10;&#9;return items.getRowCount();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Number of items" max_length="40" name="number_of_items" type="integer" virtual="true"/>
+        <element label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
     </element>
 </database>

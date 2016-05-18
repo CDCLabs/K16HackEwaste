@@ -31,12 +31,12 @@
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_snc_ewaste_ewaste_item</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference display_value="" name="x_snc_ewaste_ewaste_request">x_snc_ewaste_ewaste_request</reference>
         <reference_cascade_rule/>
@@ -53,7 +53,7 @@
         <sys_created_on>2016-05-18 00:28:44</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>7be85e444f6792005f5b01b18110c721</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>eWaste Request</sys_name>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
         <sys_policy/>
@@ -61,7 +61,7 @@
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_ewaste_ewaste_item_ewaste_request</sys_update_name>
         <sys_updated_by>patrick.schulte</sys_updated_by>
-        <sys_updated_on>2016-05-18 00:28:44</sys_updated_on>
+        <sys_updated_on>2016-05-18 03:23:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

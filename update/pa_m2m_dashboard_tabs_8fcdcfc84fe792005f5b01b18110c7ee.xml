@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="eWaste Management">128d8fc84fe792005f5b01b18110c766</dashboard>
+        <home>false</home>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>Ewanh</sys_created_by>
+        <sys_created_on>2016-05-18 04:19:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8fcdcfc84fe792005f5b01b18110c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>128d8fc84fe792005f5b01b18110c766</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_8fcdcfc84fe792005f5b01b18110c7ee</sys_update_name>
+        <sys_updated_by>Ewanh</sys_updated_by>
+        <sys_updated_on>2016-05-18 04:19:17</sys_updated_on>
+        <tab display_value="ewaste open requests">c7cdcfc84fe792005f5b01b18110c7ee</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

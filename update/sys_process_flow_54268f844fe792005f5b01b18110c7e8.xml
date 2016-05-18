@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_ewaste_ewaste_request">stateIN3,4,7^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="3,4,7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Complete</label>
+        <name>complete</name>
+        <order>4</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>patrick.schulte</sys_created_by>
+        <sys_created_on>2016-05-18 03:45:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>54268f844fe792005f5b01b18110c7e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>complete</sys_name>
+        <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+        <sys_update_name>sys_process_flow_54268f844fe792005f5b01b18110c7e8</sys_update_name>
+        <sys_updated_by>patrick.schulte</sys_updated_by>
+        <sys_updated_on>2016-05-18 03:47:36</sys_updated_on>
+        <table>x_snc_ewaste_ewaste_request</table>
+    </sys_process_flow>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_ewaste_ewaste_request">state=2^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Picked up</label>
+        <name>picked_up</name>
+        <order>3</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>patrick.schulte</sys_created_by>
+        <sys_created_on>2016-05-18 03:51:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>68878bc44fe792005f5b01b18110c7bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>picked_up</sys_name>
+        <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+        <sys_update_name>sys_process_flow_68878bc44fe792005f5b01b18110c7bd</sys_update_name>
+        <sys_updated_by>patrick.schulte</sys_updated_by>
+        <sys_updated_on>2016-05-18 03:51:48</sys_updated_on>
+        <table>x_snc_ewaste_ewaste_request</table>
+    </sys_process_flow>
+</record_update>

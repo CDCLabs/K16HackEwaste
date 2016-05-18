@@ -4,30 +4,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 00:57:51</sys_created_on>
+            <sys_created_on>2016-05-18 03:46:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>14bfdac84f6792005f5b01b18110c722</sys_id>
+            <sys_id>4e56c3c44fe792005f5b01b18110c76a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_ewaste_ewaste_request" name="x_snc_ewaste_ewaste_request" sys_domain="global" view="Default view">9cbfdac84f6792005f5b01b18110c721</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_request" sys_domain="global" view="Default view">8939164013a31200d6c753173244b085</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_request" sys_domain="global" view="Default view">4256c3c44fe792005f5b01b18110c766</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 00:57:51</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 00:57:51</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>94bfdac84f6792005f5b01b18110c722</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_snc_ewaste_ewaste_request" name="x_snc_ewaste_ewaste_request" sys_domain="global" view="Default view">9cbfdac84f6792005f5b01b18110c721</sys_ui_form>
-            <sys_ui_section caption="Items" display_value="Items" name="x_snc_ewaste_ewaste_request" sys_domain="global" view="Default view">18bfdac84f6792005f5b01b18110c721</sys_ui_section>
-            <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 00:57:51</sys_updated_on>
+            <sys_updated_on>2016-05-18 03:46:44</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_ewaste_ewaste_request</name>

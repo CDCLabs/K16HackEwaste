@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Look up barcode in the Hardware CI table and return the reference</description>
+        <field>barcode</field>
+        <global>true</global>
+        <messages/>
+        <name>Lookup hardware CI from barcode</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	var gr = new GlideRecord('cmdb_ci_hardware');
+	gr.addQuery('asset_tag', g_form.getValue('barcode'));
+	gr.query(function(gr) {
+		gr.next();
+		g_form.setValue('hardware', gr.sys_id);
+	});
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>patrick.schulte</sys_created_by>
+        <sys_created_on>2016-05-18 02:23:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a00232c84fa792005f5b01b18110c776</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Lookup hardware CI from barcode</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+        <sys_update_name>sys_script_client_a00232c84fa792005f5b01b18110c776</sys_update_name>
+        <sys_updated_by>patrick.schulte</sys_updated_by>
+        <sys_updated_on>2016-05-18 03:07:59</sys_updated_on>
+        <table>x_snc_ewaste_ewaste_item</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

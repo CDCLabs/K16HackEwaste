@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="EWaste">4158d64013a31200d6c753173244b0c6</application>
+        <application display_value="eWaste">4158d64013a31200d6c753173244b0c6</application>
         <filter/>
         <name>eWaste Items</name>
         <order/>

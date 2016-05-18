@@ -2,7 +2,7 @@
 <database>
     <element label="eWaste Item" max_length="40" name="x_snc_ewaste_ewaste_item" type="collection">
         <element attributes="barcode=true" label="Barcode" max_length="40" name="barcode" type="string"/>
-        <element label="eWaste Request" mandatory="true" max_length="32" name="ewaste_request" read_only="true" reference="x_snc_ewaste_ewaste_request" type="reference"/>
+        <element label="eWaste Request" mandatory="true" max_length="32" name="ewaste_request" read_only="true" reference="x_snc_ewaste_ewaste_request" reference_cascade_rule="delete" type="reference"/>
         <element attributes="ref_ac_columns_search=true,ref_ac_columns=asset_tag,barcode=true,ref_auto_completer=AJAXTableCompleter" label="Hardware" max_length="32" name="hardware" reference="cmdb_ci_hardware" type="reference"/>
         <element hint="Indicate if this hardware was picked up during this request" label="Picked up" max_length="40" name="picked_up" type="boolean"/>
         <element label="This item is reusable" max_length="40" name="this_item_is_reusable" type="boolean"/>

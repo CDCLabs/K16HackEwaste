@@ -2,9 +2,9 @@
 <record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="EWaste">4158d64013a31200d6c753173244b0c6</application>
+        <application display_value="eWaste">4158d64013a31200d6c753173244b0c6</application>
         <filter/>
-        <name>EWaste Requests</name>
+        <name>eWaste Requests</name>
         <order/>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
@@ -16,15 +16,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4958d64013a31200d6c753173244b0c6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>EWaste Requests</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>eWaste Requests</sys_name>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>sys_ui_module_4958d64013a31200d6c753173244b0c6</sys_update_name>
-        <sys_updated_by>shamshad.admin</sys_updated_by>
-        <sys_updated_on>2016-05-18 00:25:41</sys_updated_on>
+        <sys_updated_by>cbui</sys_updated_by>
+        <sys_updated_on>2016-05-18 06:09:09</sys_updated_on>
         <table>x_snc_ewaste_ewaste_request</table>
         <uncancelable>false</uncancelable>
         <view_name/>

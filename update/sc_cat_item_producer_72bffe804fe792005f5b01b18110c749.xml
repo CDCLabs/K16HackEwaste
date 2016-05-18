@@ -11,9 +11,7 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><font size="6"><strong><u>EWaste Request</u></strong></font></p>
-<p> </p>
-<p>Please Fill out the form below and select 1 or more CIs that require disposal.</p>
+        <description><![CDATA[<p>Please Fill out the form below and select 1 or more CIs that require disposal.</p>
 <p> </p>
 <hr />]]></description>
         <entitlement_script/>
@@ -48,6 +46,7 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <script><![CDATA[createCIs(current.sys_id, producer.cis_to_dispose);
+current.assignment_group = "a120a20c4f6792005f5b01b18110c713"; //ewaste admin
 
 function createCIs(sysId, cisToDispose){
 	
@@ -74,15 +73,15 @@ function createCIs(sysId, cisToDispose){
         <sys_created_on>2016-05-18 03:18:31</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>72bffe804fe792005f5b01b18110c749</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>eWaste Request</sys_name>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>sc_cat_item_producer_72bffe804fe792005f5b01b18110c749</sys_update_name>
-        <sys_updated_by>cbui</sys_updated_by>
-        <sys_updated_on>2016-05-18 05:24:18</sys_updated_on>
+        <sys_updated_by>larmstrong_admin</sys_updated_by>
+        <sys_updated_on>2016-05-18 06:15:52</sys_updated_on>
         <table_name>x_snc_ewaste_ewaste_request</table_name>
         <template/>
         <type>item</type>

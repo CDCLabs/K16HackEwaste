@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-05-18 06:41:40">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across_knowledge">46978421370031002d2440ed9dbe5db7</layout>
+        <order/>
+        <read_roles/>
+        <roles>x_snc_ewaste.admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>patrick.schulte</sys_created_by>
+        <sys_created_on>2016-05-18 05:59:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d0a4abcc4f2b92005f5b01b18110c739</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>eWaste Overview</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+        <sys_update_name>sys_portal_page_d0a4abcc4f2b92005f5b01b18110c739</sys_update_name>
+        <sys_updated_by>patrick.schulte</sys_updated_by>
+        <sys_updated_on>2016-05-18 06:00:12</sys_updated_on>
+        <title>eWaste Overview</title>
+        <user/>
+        <view>ewaste</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="eWaste Overview">d0a4abcc4f2b92005f5b01b18110c739</page>
+                <summary/>
+                <sys_created_by>shamshad.admin</sys_created_by>
+                <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                <sys_id>0d1c6b0c13271200d6c753173244b01d</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>shamshad.admin</sys_updated_by>
+                <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">0d1c6b0c13271200d6c753173244b01d</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>0d1c6b0c13271200d6c753173244b01e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>eWaste Requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">0d1c6b0c13271200d6c753173244b01d</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>491c6b0c13271200d6c753173244b01e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">0d1c6b0c13271200d6c753173244b01d</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>4d1c6b0c13271200d6c753173244b01d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>98f81fc44f2b92005f5b01b18110c72d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">0d1c6b0c13271200d6c753173244b01d</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>811c6b0c13271200d6c753173244b01f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>d0a4abcc4f2b92005f5b01b18110c739</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">0d1c6b0c13271200d6c753173244b01d</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>851c6b0c13271200d6c753173244b01e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">0d1c6b0c13271200d6c753173244b01d</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>cd1c6b0c13271200d6c753173244b01e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>score</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="eWaste Overview">d0a4abcc4f2b92005f5b01b18110c739</page>
+                <summary/>
+                <sys_created_by>shamshad.admin</sys_created_by>
+                <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                <sys_id>811c6b0c13271200d6c753173244b021</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>shamshad.admin</sys_updated_by>
+                <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">811c6b0c13271200d6c753173244b021</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>0d1c6b0c13271200d6c753173244b021</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">811c6b0c13271200d6c753173244b021</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>451c6b0c13271200d6c753173244b022</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>d0a4abcc4f2b92005f5b01b18110c739</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">811c6b0c13271200d6c753173244b021</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>491c6b0c13271200d6c753173244b021</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">811c6b0c13271200d6c753173244b021</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>811c6b0c13271200d6c753173244b022</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>Items recycled by class</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">811c6b0c13271200d6c753173244b021</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>851c6b0c13271200d6c753173244b021</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">811c6b0c13271200d6c753173244b021</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>c11c6b0c13271200d6c753173244b021</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>7f8bc7484fe792005f5b01b18110c7af</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">811c6b0c13271200d6c753173244b021</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>cd1c6b0c13271200d6c753173244b021</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="eWaste Overview">d0a4abcc4f2b92005f5b01b18110c739</page>
+                <summary/>
+                <sys_created_by>shamshad.admin</sys_created_by>
+                <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                <sys_id>c51c6b0c13271200d6c753173244b01f</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>shamshad.admin</sys_updated_by>
+                <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">c51c6b0c13271200d6c753173244b01f</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>051c6b0c13271200d6c753173244b020</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">c51c6b0c13271200d6c753173244b01f</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>091c6b0c13271200d6c753173244b01f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>890bafc813271200d6c753173244b040</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">c51c6b0c13271200d6c753173244b01f</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>411c6b0c13271200d6c753173244b020</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">c51c6b0c13271200d6c753173244b01f</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>4d1c6b0c13271200d6c753173244b020</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>d0a4abcc4f2b92005f5b01b18110c739</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">c51c6b0c13271200d6c753173244b01f</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>891c6b0c13271200d6c753173244b020</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">c51c6b0c13271200d6c753173244b01f</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>c51c6b0c13271200d6c753173244b020</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>Recycled CIs</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="eWaste Overview">d0a4abcc4f2b92005f5b01b18110c739</page>
+                <summary/>
+                <sys_created_by>shamshad.admin</sys_created_by>
+                <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                <sys_id>cd1c6b0c13271200d6c753173244b01a</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>shamshad.admin</sys_updated_by>
+                <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>011c6b0c13271200d6c753173244b01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>051c6b0c13271200d6c753173244b01d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>091c6b0c13271200d6c753173244b01c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>fd746bcc4f2b92005f5b01b18110c7a2</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>0d1c6b0c13271200d6c753173244b01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>411c6b0c13271200d6c753173244b01d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>451c6b0c13271200d6c753173244b01c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>Open requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>491c6b0c13271200d6c753173244b01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>811c6b0c13271200d6c753173244b01c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>851c6b0c13271200d6c753173244b01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>8d1c6b0c13271200d6c753173244b01c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>c11c6b0c13271200d6c753173244b01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>c51c6b0c13271200d6c753173244b01d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>c91c6b0c13271200d6c753173244b01c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2016-05-17 23:31:35">cd1c6b0c13271200d6c753173244b01a</portal_section>
+                        <sys_created_by>shamshad.admin</sys_created_by>
+                        <sys_created_on>2016-05-18 06:31:35</sys_created_on>
+                        <sys_id>cd1c6b0c13271200d6c753173244b01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shamshad.admin</sys_updated_by>
+                        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

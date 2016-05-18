@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <application display_value="eWaste">8958d64013a31200d6c753173244b0c4</application>
         <assessment/>
         <content_page/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d23b0f484fe792005f5b01b18110c794</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Items recycled by class</sys_name>
         <sys_overrides/>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>sys_app_module_d23b0f484fe792005f5b01b18110c794</sys_update_name>
         <sys_updated_by>patrick.schulte</sys_updated_by>
-        <sys_updated_on>2016-05-18 04:10:07</sys_updated_on>
+        <sys_updated_on>2016-05-18 16:32:43</sys_updated_on>
         <timeline_page/>
         <title>Items recycled by class</title>
         <uncancelable>false</uncancelable>

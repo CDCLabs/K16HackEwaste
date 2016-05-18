@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_ewaste_ewaste_request" version="2" view="rpt-tempfd746bcc4f2b92005f5b01b18110c7a2patrick.schulte">
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_ewaste_ewaste_request" version="2" view="rpt-tempe23caddc13a71200d6c753173244b0e8patrick.schulte">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="b9746fcc4f2b92005f5b01b18110c79d">c63ceddc13a71200d6c753173244b091</list_id>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="2a3ce9dc13a71200d6c753173244b01c">6e3ce9dc13a71200d6c753173244b01c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 15:51:26</sys_created_on>
-            <sys_id>ca3ceddc13a71200d6c753173244b091</sys_id>
+            <sys_created_on>2016-05-18 15:51:29</sys_created_on>
+            <sys_id>6a3c211013e71200d6c753173244b02a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 15:51:26</sys_updated_on>
+            <sys_updated_on>2016-05-18 15:51:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="b9746fcc4f2b92005f5b01b18110c79d">c63ceddc13a71200d6c753173244b091</list_id>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="2a3ce9dc13a71200d6c753173244b01c">6e3ce9dc13a71200d6c753173244b01c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 15:51:26</sys_created_on>
-            <sys_id>4e3ceddc13a71200d6c753173244b091</sys_id>
+            <sys_created_on>2016-05-18 15:51:29</sys_created_on>
+            <sys_id>ea3c211013e71200d6c753173244b02a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 15:51:26</sys_updated_on>
+            <sys_updated_on>2016-05-18 15:51:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>priority</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="b9746fcc4f2b92005f5b01b18110c79d">c63ceddc13a71200d6c753173244b091</list_id>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="2a3ce9dc13a71200d6c753173244b01c">6e3ce9dc13a71200d6c753173244b01c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 15:51:26</sys_created_on>
-            <sys_id>ce3ceddc13a71200d6c753173244b091</sys_id>
+            <sys_created_on>2016-05-18 15:51:29</sys_created_on>
+            <sys_id>6e3c211013e71200d6c753173244b02a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 15:51:26</sys_updated_on>
+            <sys_updated_on>2016-05-18 15:51:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>short_description</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="b9746fcc4f2b92005f5b01b18110c79d">c63ceddc13a71200d6c753173244b091</list_id>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="2a3ce9dc13a71200d6c753173244b01c">6e3ce9dc13a71200d6c753173244b01c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 15:51:26</sys_created_on>
-            <sys_id>423ceddc13a71200d6c753173244b092</sys_id>
+            <sys_created_on>2016-05-18 15:51:29</sys_created_on>
+            <sys_id>ee3c211013e71200d6c753173244b02a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 15:51:26</sys_updated_on>
+            <sys_updated_on>2016-05-18 15:51:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number_of_items</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="b9746fcc4f2b92005f5b01b18110c79d">c63ceddc13a71200d6c753173244b091</list_id>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="2a3ce9dc13a71200d6c753173244b01c">6e3ce9dc13a71200d6c753173244b01c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 15:51:26</sys_created_on>
-            <sys_id>c23ceddc13a71200d6c753173244b092</sys_id>
+            <sys_created_on>2016-05-18 15:51:29</sys_created_on>
+            <sys_id>623c211013e71200d6c753173244b02b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 15:51:26</sys_updated_on>
+            <sys_updated_on>2016-05-18 15:51:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>expected_start</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="b9746fcc4f2b92005f5b01b18110c79d">c63ceddc13a71200d6c753173244b091</list_id>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="2a3ce9dc13a71200d6c753173244b01c">6e3ce9dc13a71200d6c753173244b01c</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 15:51:26</sys_created_on>
-            <sys_id>463ceddc13a71200d6c753173244b092</sys_id>
+            <sys_created_on>2016-05-18 15:51:29</sys_created_on>
+            <sys_id>e23c211013e71200d6c753173244b02b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 15:51:26</sys_updated_on>
+            <sys_updated_on>2016-05-18 15:51:29</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -103,11 +103,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 15:51:26</sys_created_on>
+            <sys_created_on>2016-05-18 15:51:29</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c63ceddc13a71200d6c753173244b091</sys_id>
+            <sys_id>6e3ce9dc13a71200d6c753173244b01c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name/>
             <sys_package/>
@@ -116,9 +116,9 @@
             <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
             <sys_update_name/>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 15:51:26</sys_updated_on>
+            <sys_updated_on>2016-05-18 15:51:29</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt-tempfd746bcc4f2b92005f5b01b18110c7a2patrick.schulte" name="rpt-tempfd746bcc4f2b92005f5b01b18110c7a2patrick.schulte">b9746fcc4f2b92005f5b01b18110c79d</view>
+            <view display_value="Rpt-tempe23caddc13a71200d6c753173244b0e8patrick.schulte" name="rpt-tempe23caddc13a71200d6c753173244b0e8patrick.schulte">2a3ce9dc13a71200d6c753173244b01c</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

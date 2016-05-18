@@ -118,11 +118,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 04:21:53</sys_created_on>
+            <sys_created_on>2016-05-18 15:52:21</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0d6ec30c4fe792005f5b01b18110c737</sys_id>
+            <sys_id>d36caddc13a71200d6c753173244b0e6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_ewaste_ewaste_request</sys_name>
             <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
@@ -131,8 +131,8 @@
             <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_ewaste_ewaste_request_null</sys_update_name>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 04:21:53</sys_updated_on>
-            <sys_user/>
+            <sys_updated_on>2016-05-18 15:52:21</sys_updated_on>
+            <sys_user display_value="Patrick Schulte">c26902484f2792005f5b01b18110c726</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

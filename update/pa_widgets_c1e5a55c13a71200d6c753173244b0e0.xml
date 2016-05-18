@@ -43,20 +43,20 @@
         <include_target>false</include_target>
         <include_thresholds>false</include_thresholds>
         <include_trend>false</include_trend>
-        <indicator display_value="Number of eWaste requests">1cf81fc44f2b92005f5b01b18110c72c</indicator>
+        <indicator display_value="Cost of recycled CIs">81e5a55c13a71200d6c753173244b0df</indicator>
         <is_compare_chart>false</is_compare_chart>
         <lastscore_compare>previous_score</lastscore_compare>
         <lastscore_periods_back/>
         <lookup_name/>
         <manual_elements>false</manual_elements>
         <max_color/>
-        <name>eWaste Requests</name>
+        <name>Cost of recycled CIs</name>
         <number_of_records>5</number_of_records>
         <percentages>no_percentages</percentages>
         <period>7d</period>
         <pivot_breakdown/>
         <pivot_elements_filter/>
-        <related_dashboards>2</related_dashboards>
+        <related_dashboards>1</related_dashboards>
         <scorecard_options>all</scorecard_options>
         <show_bar>false</show_bar>
         <show_breakdown_selector>true</show_breakdown_selector>
@@ -68,22 +68,22 @@
         <sort_direction>asc</sort_direction>
         <sort_on>value</sort_on>
         <sys_class_name>pa_widgets</sys_class_name>
-        <sys_created_by>Ewanh</sys_created_by>
-        <sys_created_on>2016-05-18 05:07:58</sys_created_on>
+        <sys_created_by>patrick.schulte</sys_created_by>
+        <sys_created_on>2016-05-18 15:23:48</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>98f81fc44f2b92005f5b01b18110c72d</sys_id>
-        <sys_mod_count>42</sys_mod_count>
-        <sys_name>eWaste Requests</sys_name>
+        <sys_id>c1e5a55c13a71200d6c753173244b0e0</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Cost of recycled CIs</sys_name>
         <sys_overrides/>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
-        <sys_update_name>pa_widgets_98f81fc44f2b92005f5b01b18110c72d</sys_update_name>
+        <sys_update_name>pa_widgets_c1e5a55c13a71200d6c753173244b0e0</sys_update_name>
         <sys_updated_by>patrick.schulte</sys_updated_by>
-        <sys_updated_on>2016-05-18 15:49:02</sys_updated_on>
+        <sys_updated_on>2016-05-18 15:42:49</sys_updated_on>
         <tag/>
         <template>template2</template>
         <type>score</type>
@@ -95,5 +95,5 @@
         <yaxis_title/>
         <yaxis_to/>
     </pa_widgets>
-    <sys_translated_text action="delete_multiple" query="documentkey=98f81fc44f2b92005f5b01b18110c72d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=c1e5a55c13a71200d6c753173244b0e0"/>
 </record_update>

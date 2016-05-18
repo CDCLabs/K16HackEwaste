@@ -14,13 +14,13 @@
         <run_start>2016-05-18 05:09:44</run_start>
         <run_time>1970-01-01 08:00:00</run_time>
         <run_type>on_demand</run_type>
-        <score_fixed_end>00000000</score_fixed_end>
-        <score_fixed_start>00000000</score_fixed_start>
-        <score_operator>relative</score_operator>
-        <score_relative_end>1</score_relative_end>
-        <score_relative_end_interval>days</score_relative_end_interval>
-        <score_relative_start>0</score_relative_start>
-        <score_relative_start_interval>days</score_relative_start_interval>
+        <score_fixed_end>20160517</score_fixed_end>
+        <score_fixed_start>20160516</score_fixed_start>
+        <score_operator>fixed</score_operator>
+        <score_relative_end/>
+        <score_relative_end_interval/>
+        <score_relative_start/>
+        <score_relative_start_interval/>
         <sys_class_name>sysauto_pa</sys_class_name>
         <sys_created_by>patrick.schulte</sys_created_by>
         <sys_created_on>2016-05-18 05:10:03</sys_created_on>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>865917084f2b92005f5b01b18110c78a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>eWaste Historic collection</sys_name>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
         <sys_policy/>
@@ -36,7 +36,7 @@
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>sysauto_pa_865917084f2b92005f5b01b18110c78a</sys_update_name>
         <sys_updated_by>patrick.schulte</sys_updated_by>
-        <sys_updated_on>2016-05-18 05:16:16</sys_updated_on>
+        <sys_updated_on>2016-05-18 15:26:59</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_pa>
     <sys_translated_text action="delete_multiple" query="documentkey=865917084f2b92005f5b01b18110c78a"/>

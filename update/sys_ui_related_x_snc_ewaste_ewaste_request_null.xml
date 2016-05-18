@@ -3,31 +3,17 @@
     <sys_ui_related sys_domain="global" table="x_snc_ewaste_ewaste_request" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="eWaste Request - Default view" name="x_snc_ewaste_ewaste_request" related_list="NULL" sys_domain="global" view="Default view">77d0c3c04fe792005f5b01b18110c788</list_id>
+            <list_id display_value="eWaste Request - Default view" name="x_snc_ewaste_ewaste_request" related_list="NULL" sys_domain="global" view="Default view">baa3719013e71200d6c753173244b036</list_id>
             <order_by/>
             <position>0</position>
-            <related_list>sc_task.parent</related_list>
+            <related_list/>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 03:22:49</sys_created_on>
-            <sys_id>bbd0c3c04fe792005f5b01b18110c788</sys_id>
+            <sys_created_on>2016-05-18 16:23:59</sys_created_on>
+            <sys_id>bea3719013e71200d6c753173244b036</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 03:22:49</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="eWaste Request - Default view" name="x_snc_ewaste_ewaste_request" related_list="NULL" sys_domain="global" view="Default view">77d0c3c04fe792005f5b01b18110c788</list_id>
-            <order_by/>
-            <position>1</position>
-            <related_list>sysapproval_approver.sysapproval</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 03:22:49</sys_created_on>
-            <sys_id>7fd0c3c04fe792005f5b01b18110c788</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 03:22:49</sys_updated_on>
+            <sys_updated_on>2016-05-18 16:23:59</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>eWaste Request - Default view</calculated_name>
@@ -38,11 +24,11 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 03:22:49</sys_created_on>
+            <sys_created_on>2016-05-18 16:23:59</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>77d0c3c04fe792005f5b01b18110c788</sys_id>
+            <sys_id>baa3719013e71200d6c753173244b036</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>eWaste Request - Default view</sys_name>
             <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
@@ -51,7 +37,7 @@
             <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
             <sys_update_name>sys_ui_related_x_snc_ewaste_ewaste_request_null</sys_update_name>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 03:22:49</sys_updated_on>
+            <sys_updated_on>2016-05-18 16:23:59</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

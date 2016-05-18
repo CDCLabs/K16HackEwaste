@@ -5,13 +5,13 @@
             <element>ewaste_request</element>
             <position>0</position>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 02:16:55</sys_created_on>
-            <sys_id>2ac17e884fa792005f5b01b18110c7f4</sys_id>
+            <sys_created_on>2016-05-18 06:44:31</sys_created_on>
+            <sys_id>2a0f678c13271200d6c753173244b0aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 02:16:55</sys_updated_on>
+            <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,55 +19,69 @@
             <element>picked_up</element>
             <position>1</position>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 02:16:55</sys_created_on>
-            <sys_id>aac17e884fa792005f5b01b18110c7f4</sys_id>
+            <sys_created_on>2016-05-18 06:44:31</sys_created_on>
+            <sys_id>aa0f678c13271200d6c753173244b0aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 02:16:55</sys_updated_on>
+            <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>this_item_is_reusable</element>
+            <position>2</position>
+            <sys_created_by>patrick.schulte</sys_created_by>
+            <sys_created_on>2016-05-18 06:44:31</sys_created_on>
+            <sys_id>2e0f678c13271200d6c753173244b0aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
+            <sys_updated_by>patrick.schulte</sys_updated_by>
+            <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>barcode</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 02:16:55</sys_created_on>
-            <sys_id>2ec17e884fa792005f5b01b18110c7f4</sys_id>
+            <sys_created_on>2016-05-18 06:44:31</sys_created_on>
+            <sys_id>ae0f678c13271200d6c753173244b0aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 02:16:55</sys_updated_on>
+            <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>hardware</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 02:16:55</sys_created_on>
-            <sys_id>aec17e884fa792005f5b01b18110c7f4</sys_id>
+            <sys_created_on>2016-05-18 06:44:31</sys_created_on>
+            <sys_id>220f678c13271200d6c753173244b0ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 02:16:55</sys_updated_on>
+            <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 02:16:55</sys_created_on>
-            <sys_id>22c17e884fa792005f5b01b18110c7f5</sys_id>
+            <sys_created_on>2016-05-18 06:44:31</sys_created_on>
+            <sys_id>a20f678c13271200d6c753173244b0ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 02:16:55</sys_updated_on>
+            <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>

@@ -56,7 +56,7 @@
         <period>7d</period>
         <pivot_breakdown/>
         <pivot_elements_filter/>
-        <related_dashboards>2</related_dashboards>
+        <related_dashboards>1</related_dashboards>
         <scorecard_options>all</scorecard_options>
         <show_bar>false</show_bar>
         <show_breakdown_selector>true</show_breakdown_selector>
@@ -74,7 +74,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>890bafc813271200d6c753173244b040</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Recycled CIs</sys_name>
         <sys_overrides/>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
@@ -82,10 +82,10 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>pa_widgets_890bafc813271200d6c753173244b040</sys_update_name>
-        <sys_updated_by>shamshad.admin</sys_updated_by>
-        <sys_updated_on>2016-05-18 06:31:35</sys_updated_on>
+        <sys_updated_by>patrick.schulte</sys_updated_by>
+        <sys_updated_on>2016-05-18 15:43:23</sys_updated_on>
         <tag/>
-        <template>template1</template>
+        <template>template2</template>
         <type>score</type>
         <visualization>realtime</visualization>
         <yaxis2_from/>

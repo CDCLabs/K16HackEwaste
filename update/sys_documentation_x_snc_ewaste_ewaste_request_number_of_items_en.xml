@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>patrick.schulte</sys_created_by>
             <sys_created_on>2016-05-18 04:19:01</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>8fbd8fc84fe792005f5b01b18110c7ea</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>Number of items</sys_name>

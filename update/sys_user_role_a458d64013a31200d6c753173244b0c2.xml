@@ -12,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>shamshad.admin</sys_created_by>
         <sys_created_on>2016-05-18 00:25:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a458d64013a31200d6c753173244b0c2</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>x_snc_ewaste.admin</sys_name>

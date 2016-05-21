@@ -12,7 +12,7 @@
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>shamshad.admin</sys_created_by>
         <sys_created_on>2016-05-18 00:25:40</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8958d64013a31200d6c753173244b0c4</sys_id>

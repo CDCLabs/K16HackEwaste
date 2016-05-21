@@ -12,7 +12,7 @@
         <sys_class_name>sys_process_flow</sys_class_name>
         <sys_created_by>patrick.schulte</sys_created_by>
         <sys_created_on>2016-05-18 03:51:48</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>68878bc44fe792005f5b01b18110c7bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>picked_up</sys_name>

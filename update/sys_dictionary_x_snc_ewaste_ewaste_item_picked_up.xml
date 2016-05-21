@@ -51,8 +51,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>patrick.schulte</sys_created_by>
         <sys_created_on>2016-05-18 00:37:30</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>fadad2084f6792005f5b01b18110c750</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1aa092d813e71200d6c753173244b0a1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Picked up</sys_name>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
@@ -60,8 +60,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_ewaste_ewaste_item_picked_up</sys_update_name>
-        <sys_updated_by>patrick.schulte</sys_updated_by>
-        <sys_updated_on>2016-05-18 00:37:30</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-05-18 18:30:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

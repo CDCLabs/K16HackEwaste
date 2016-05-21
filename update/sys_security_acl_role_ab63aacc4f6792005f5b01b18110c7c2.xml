@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>cbui</sys_created_by>
         <sys_created_on>2016-05-18 01:15:01</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ab63aacc4f6792005f5b01b18110c7c2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>.x_snc_ewaste.admin</sys_name>

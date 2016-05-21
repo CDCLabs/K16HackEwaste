@@ -15,7 +15,7 @@
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>larmstrong_admin</sys_created_by>
         <sys_created_on>2016-05-18 05:30:25</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>cd1e9f4013271200d6c753173244b02e</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name/>

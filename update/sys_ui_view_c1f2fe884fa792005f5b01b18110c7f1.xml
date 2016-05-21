@@ -8,7 +8,7 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>patrick.schulte</sys_created_by>
         <sys_created_on>2016-05-18 02:22:00</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c1f2fe884fa792005f5b01b18110c7f1</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Sys_popup,mobile</sys_name>

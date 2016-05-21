@@ -4,122 +4,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="7db73031c31301006568506adfba8ff7">98853812eb032100871aac6aa206fe99</list_id>
+            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf078c4fe792005f5b01b18110c797</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2014-09-11 07:55:24</sys_created_on>
-            <sys_id>dc853812eb032100871aac6aa206fe99</sys_id>
+            <sys_created_by>Ewanh</sys_created_by>
+            <sys_created_on>2016-05-18 04:27:20</sys_created_on>
+            <sys_id>81af078c4fe792005f5b01b18110c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2014-09-11 07:55:24</sys_updated_on>
+            <sys_updated_by>Ewanh</sys_updated_by>
+            <sys_updated_on>2016-05-18 04:27:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>unit</element>
-            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="7db73031c31301006568506adfba8ff7">98853812eb032100871aac6aa206fe99</list_id>
+            <element>aggregate</element>
+            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf078c4fe792005f5b01b18110c797</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2014-09-11 07:55:24</sys_created_on>
-            <sys_id>10853812eb032100871aac6aa206fe9a</sys_id>
+            <sys_created_by>Ewanh</sys_created_by>
+            <sys_created_on>2016-05-18 04:27:20</sys_created_on>
+            <sys_id>05af078c4fe792005f5b01b18110c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2014-09-11 07:55:24</sys_updated_on>
+            <sys_updated_by>Ewanh</sys_updated_by>
+            <sys_updated_on>2016-05-18 04:27:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>key</element>
-            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="7db73031c31301006568506adfba8ff7">98853812eb032100871aac6aa206fe99</list_id>
+            <element>collect_breakdown_matrix</element>
+            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf078c4fe792005f5b01b18110c797</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2014-09-11 07:55:24</sys_created_on>
-            <sys_id>50853812eb032100871aac6aa206fe9a</sys_id>
+            <sys_created_by>Ewanh</sys_created_by>
+            <sys_created_on>2016-05-18 04:27:20</sys_created_on>
+            <sys_id>85af078c4fe792005f5b01b18110c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2014-09-11 07:55:24</sys_updated_on>
+            <sys_updated_by>Ewanh</sys_updated_by>
+            <sys_updated_on>2016-05-18 04:27:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>frequency</element>
-            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="7db73031c31301006568506adfba8ff7">98853812eb032100871aac6aa206fe99</list_id>
+            <element>collect_records</element>
+            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf078c4fe792005f5b01b18110c797</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2014-09-11 07:55:24</sys_created_on>
-            <sys_id>90853812eb032100871aac6aa206fe9a</sys_id>
+            <sys_created_by>Ewanh</sys_created_by>
+            <sys_created_on>2016-05-18 04:27:20</sys_created_on>
+            <sys_id>09af078c4fe792005f5b01b18110c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2014-09-11 07:55:24</sys_updated_on>
+            <sys_updated_by>Ewanh</sys_updated_by>
+            <sys_updated_on>2016-05-18 04:27:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>cube</element>
-            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="7db73031c31301006568506adfba8ff7">98853812eb032100871aac6aa206fe99</list_id>
+            <element>conditions</element>
+            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf078c4fe792005f5b01b18110c797</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2014-09-11 07:55:24</sys_created_on>
-            <sys_id>d0853812eb032100871aac6aa206fe9a</sys_id>
+            <sys_created_by>Ewanh</sys_created_by>
+            <sys_created_on>2016-05-18 04:27:20</sys_created_on>
+            <sys_id>89af078c4fe792005f5b01b18110c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2014-09-11 07:55:24</sys_updated_on>
+            <sys_updated_by>Ewanh</sys_updated_by>
+            <sys_updated_on>2016-05-18 04:27:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>display</element>
-            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="7db73031c31301006568506adfba8ff7">98853812eb032100871aac6aa206fe99</list_id>
+            <element>contributor</element>
+            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf078c4fe792005f5b01b18110c797</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2014-09-11 07:55:24</sys_created_on>
-            <sys_id>14853812eb032100871aac6aa206fe9a</sys_id>
+            <sys_created_by>Ewanh</sys_created_by>
+            <sys_created_on>2016-05-18 04:27:20</sys_created_on>
+            <sys_id>c1af078c4fe792005f5b01b18110c7a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2014-09-11 07:55:24</sys_updated_on>
+            <sys_updated_by>Ewanh</sys_updated_by>
+            <sys_updated_on>2016-05-18 04:27:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>related_jobs</element>
-            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="7db73031c31301006568506adfba8ff7">98853812eb032100871aac6aa206fe99</list_id>
+            <element>cube</element>
+            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf078c4fe792005f5b01b18110c797</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2014-09-11 07:55:24</sys_created_on>
-            <sys_id>54853812eb032100871aac6aa206fe9a</sys_id>
+            <sys_created_by>Ewanh</sys_created_by>
+            <sys_created_on>2016-05-18 04:27:20</sys_created_on>
+            <sys_id>45af078c4fe792005f5b01b18110c7a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2014-09-11 07:55:24</sys_updated_on>
+            <sys_updated_by>Ewanh</sys_updated_by>
+            <sys_updated_on>2016-05-18 04:27:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>related_breakdowns</element>
-            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="7db73031c31301006568506adfba8ff7">98853812eb032100871aac6aa206fe99</list_id>
+            <element>default_aggregate</element>
+            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf078c4fe792005f5b01b18110c797</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2014-09-11 07:55:24</sys_created_on>
-            <sys_id>94853812eb032100871aac6aa206fe9a</sys_id>
+            <sys_created_by>Ewanh</sys_created_by>
+            <sys_created_on>2016-05-18 04:27:20</sys_created_on>
+            <sys_id>c5af078c4fe792005f5b01b18110c7a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2014-09-11 07:55:24</sys_updated_on>
+            <sys_updated_by>Ewanh</sys_updated_by>
+            <sys_updated_on>2016-05-18 04:27:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>default_chart_type</element>
+            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf078c4fe792005f5b01b18110c797</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>Ewanh</sys_created_by>
+            <sys_created_on>2016-05-18 04:27:20</sys_created_on>
+            <sys_id>49af078c4fe792005f5b01b18110c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ewanh</sys_updated_by>
+            <sys_updated_on>2016-05-18 04:27:20</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="pa_indicators" element="NULL" name="pa_indicators" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf078c4fe792005f5b01b18110c797</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>Ewanh</sys_created_by>
+            <sys_created_on>2016-05-18 04:27:20</sys_created_on>
+            <sys_id>c9af078c4fe792005f5b01b18110c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Ewanh</sys_updated_by>
+            <sys_updated_on>2016-05-18 04:27:20</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -134,7 +164,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>patrick.schulte</sys_created_by>
             <sys_created_on>2016-05-18 04:50:22</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>16e49bc04f2b92005f5b01b18110c738</sys_id>

@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>cbui</sys_created_by>
         <sys_created_on>2016-05-18 01:40:20</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a2696ec04fa792005f5b01b18110c76b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>sys_template</sys_name>

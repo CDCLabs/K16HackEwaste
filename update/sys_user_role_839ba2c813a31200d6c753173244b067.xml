@@ -12,7 +12,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>larmstrong_admin</sys_created_by>
         <sys_created_on>2016-05-18 01:49:55</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>839ba2c813a31200d6c753173244b067</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_ewaste_pdf_templates_user</sys_name>

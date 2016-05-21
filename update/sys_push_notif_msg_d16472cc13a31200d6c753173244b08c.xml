@@ -9,7 +9,7 @@
         <sys_class_name>sys_push_notif_msg</sys_class_name>
         <sys_created_by>shamshad.admin</sys_created_by>
         <sys_created_on>2016-05-18 02:29:13</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d16472cc13a31200d6c753173244b08c</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>eWaste Hardware Pickup</sys_name>

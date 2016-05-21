@@ -14,7 +14,7 @@
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>larmstrong_admin</sys_created_by>
         <sys_created_on>2016-05-18 05:34:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>060fd38013271200d6c753173244b069</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>ewaste - Container 2</sys_name>

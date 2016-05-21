@@ -19,7 +19,7 @@
         <icon/>
         <ignore_price>false</ignore_price>
         <image/>
-        <list_price>0</list_price>
+        <list_price>0.00</list_price>
         <location/>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
@@ -71,7 +71,7 @@ function createCIs(sysId, cisToDispose){
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>cbui</sys_created_by>
         <sys_created_on>2016-05-18 03:18:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>72bffe804fe792005f5b01b18110c749</sys_id>
         <sys_mod_count>24</sys_mod_count>
         <sys_name>eWaste Request</sys_name>

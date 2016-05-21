@@ -14,7 +14,7 @@
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>Ewanh</sys_created_by>
         <sys_created_on>2016-05-18 04:44:09</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>177393804f2b92005f5b01b18110c777</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>eWaste Service Catalog - Container 1</sys_name>

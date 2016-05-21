@@ -85,7 +85,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>patrick.schulte</sys_created_by>
         <sys_created_on>2016-05-18 05:58:19</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>fd746bcc4f2b92005f5b01b18110c7a2</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>All open requests, by department</sys_name>

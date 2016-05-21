@@ -38,7 +38,7 @@ Created on Today</description>
         <role_override>true</role_override>
         <roles/>
         <score_periods>-1</score_periods>
-        <scores_modified_at>2016-05-18 15:01:14</scores_modified_at>
+        <scores_modified_at>2016-05-21 04:00:02</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
@@ -47,7 +47,7 @@ Created on Today</description>
         <sys_class_name>pa_indicators</sys_class_name>
         <sys_created_by>Ewanh</sys_created_by>
         <sys_created_on>2016-05-18 05:07:58</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1cf81fc44f2b92005f5b01b18110c72c</sys_id>

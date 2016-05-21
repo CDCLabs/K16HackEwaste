@@ -8,7 +8,7 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>Ewanh</sys_created_by>
         <sys_created_on>2016-05-18 04:19:17</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>83cd830c4fe792005f5b01b18110c798</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Pa_ewaste_open_requests</sys_name>

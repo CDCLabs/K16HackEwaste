@@ -4,107 +4,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0d6ec30c4fe792005f5b01b18110c737</list_id>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5216d6dc13e71200d6c753173244b003</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 04:21:53</sys_created_on>
-            <sys_id>416ec30c4fe792005f5b01b18110c738</sys_id>
+            <sys_created_on>2016-05-18 18:54:25</sys_created_on>
+            <sys_id>5616d6dc13e71200d6c753173244b003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 04:21:53</sys_updated_on>
+            <sys_updated_on>2016-05-18 18:54:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0d6ec30c4fe792005f5b01b18110c737</list_id>
+            <element>expected_start</element>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5216d6dc13e71200d6c753173244b003</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 04:21:53</sys_created_on>
-            <sys_id>896ec70c4fe792005f5b01b18110c727</sys_id>
+            <sys_created_on>2016-05-18 18:54:25</sys_created_on>
+            <sys_id>d616d6dc13e71200d6c753173244b003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 04:21:53</sys_updated_on>
+            <sys_updated_on>2016-05-18 18:54:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0d6ec30c4fe792005f5b01b18110c737</list_id>
+            <element>location</element>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5216d6dc13e71200d6c753173244b003</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 04:21:53</sys_created_on>
-            <sys_id>0d6ec70c4fe792005f5b01b18110c727</sys_id>
+            <sys_created_on>2016-05-18 18:54:25</sys_created_on>
+            <sys_id>5a16d6dc13e71200d6c753173244b003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 04:21:53</sys_updated_on>
+            <sys_updated_on>2016-05-18 18:54:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number_of_items</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0d6ec30c4fe792005f5b01b18110c737</list_id>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5216d6dc13e71200d6c753173244b003</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 04:21:53</sys_created_on>
-            <sys_id>8d6ec70c4fe792005f5b01b18110c727</sys_id>
+            <sys_created_on>2016-05-18 18:54:25</sys_created_on>
+            <sys_id>da16d6dc13e71200d6c753173244b003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 04:21:53</sys_updated_on>
+            <sys_updated_on>2016-05-18 18:54:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0d6ec30c4fe792005f5b01b18110c737</list_id>
+            <element>assigned_to</element>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5216d6dc13e71200d6c753173244b003</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 04:21:53</sys_created_on>
-            <sys_id>016ec70c4fe792005f5b01b18110c728</sys_id>
+            <sys_created_on>2016-05-18 18:54:25</sys_created_on>
+            <sys_id>5e16d6dc13e71200d6c753173244b003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 04:21:53</sys_updated_on>
+            <sys_updated_on>2016-05-18 18:54:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>expected_start</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0d6ec30c4fe792005f5b01b18110c737</list_id>
+            <element>assignment_group</element>
+            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5216d6dc13e71200d6c753173244b003</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 04:21:53</sys_created_on>
-            <sys_id>816ec70c4fe792005f5b01b18110c728</sys_id>
+            <sys_created_on>2016-05-18 18:54:25</sys_created_on>
+            <sys_id>de16d6dc13e71200d6c753173244b003</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 04:21:53</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="x_snc_ewaste_ewaste_request" element="NULL" name="x_snc_ewaste_ewaste_request" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">0d6ec30c4fe792005f5b01b18110c737</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>6</position>
-            <sum>false</sum>
-            <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 04:21:53</sys_created_on>
-            <sys_id>056ec70c4fe792005f5b01b18110c728</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 04:21:53</sys_updated_on>
+            <sys_updated_on>2016-05-18 18:54:25</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -118,11 +103,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>patrick.schulte</sys_created_by>
-            <sys_created_on>2016-05-18 15:52:21</sys_created_on>
+            <sys_created_on>2016-05-18 18:44:37</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d36caddc13a71200d6c753173244b0e6</sys_id>
+            <sys_id>fad35e1c13e71200d6c753173244b09a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_snc_ewaste_ewaste_request</sys_name>
             <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
@@ -131,8 +116,8 @@
             <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
             <sys_update_name>sys_ui_list_x_snc_ewaste_ewaste_request_null</sys_update_name>
             <sys_updated_by>patrick.schulte</sys_updated_by>
-            <sys_updated_on>2016-05-18 15:52:21</sys_updated_on>
-            <sys_user display_value="Patrick Schulte">c26902484f2792005f5b01b18110c726</sys_user>
+            <sys_updated_on>2016-05-18 18:44:37</sys_updated_on>
+            <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

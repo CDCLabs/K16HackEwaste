@@ -2,13 +2,13 @@
 <record_update table="sys_push_notif_app_install">
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
         <active>true</active>
-        <last_registered_on>2016-05-18 16:33:15</last_registered_on>
+        <last_registered_on>2016-05-18 21:41:32</last_registered_on>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>cbui</sys_created_by>
         <sys_created_on>2016-05-18 02:00:56</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>242e660c13a31200d6c753173244b00d</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>6758c51e0889eecf8f399bd6227c4e56f4a8c204d8f751278948f4fdbf9f086a</sys_name>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
         <sys_policy/>
@@ -18,7 +18,7 @@
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>sys_push_notif_app_install_242e660c13a31200d6c753173244b00d</sys_update_name>
         <sys_updated_by>cbui</sys_updated_by>
-        <sys_updated_on>2016-05-18 16:33:15</sys_updated_on>
+        <sys_updated_on>2016-05-18 21:41:32</sys_updated_on>
         <sys_user_id display_value="Chris Bui">a9f942444f2792005f5b01b18110c72b</sys_user_id>
         <token>6758c51e0889eecf8f399bd6227c4e56f4a8c204d8f751278948f4fdbf9f086a</token>
     </sys_push_notif_app_install>

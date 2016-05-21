@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>shamshad.admin</sys_created_by>
         <sys_created_on>2016-05-18 00:25:41</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8958d64013a31200d6c753173244b0c8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_ewaste_ewaste_request</sys_name>

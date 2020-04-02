@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="eWaste Management">128d8fc84fe792005f5b01b18110c766</dashboard>
+        <delete>true</delete>
+        <group/>
+        <identity>pa_admin</identity>
+        <read>true</read>
+        <role display_value="pa_admin" name="pa_admin">a4cc30b3bf101100b96dac808c073918</role>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>shamshad.admin</sys_created_by>
+        <sys_created_on>2017-01-20 08:10:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>df7388fbdb50b200c2d6f8fdbf9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_admin</sys_name>
+        <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_df7388fbdb50b200c2d6f8fdbf9619d9</sys_update_name>
+        <sys_updated_by>shamshad.admin</sys_updated_by>
+        <sys_updated_on>2017-01-20 08:10:51</sys_updated_on>
+        <type>1</type>
+        <user/>
+        <write>true</write>
+    </pa_dashboards_permissions>
+</record_update>

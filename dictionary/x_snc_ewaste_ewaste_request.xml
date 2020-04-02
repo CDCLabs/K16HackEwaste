@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="eWaste Request" max_length="40" name="x_snc_ewaste_ewaste_request" sizeclass="9" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" extends="task" label="eWaste Request" max_length="40" name="x_snc_ewaste_ewaste_request" sizeclass="1" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#10;&#9;&#10;&#9;//sum up all the CIs included on this request&#10;&#9;var item = new GlideRecord('x_snc_ewaste_ewaste_item');&#10;&#9;var cost = 0;&#10;&#9;item.addQuery('ewaste_request', current.sys_id);&#10;&#9;item.query();&#10;&#9;while (item.next()){&#10;&#9;&#9;cost += item.hardware.cost;&#10;&#9;}&#10;&#9;return cost;  // return the calculated value&#10;&#9;&#10;})(current);" hint="Cost of all the included hardware devices on this request" label="Cost of items" max_length="40" name="cost_of_items" read_only="true" type="float" virtual="true"/>
         <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;var items = new GlideRecord('x_snc_ewaste_ewaste_item');&#10;&#9;items.addQuery('ewaste_request', current.sys_id);&#10;&#9;items.query();&#10;&#9;&#10;&#9;return items.getRowCount();  // return the calculated value&#10;&#10;})(current);" hint="Number of hardware devices included on this request" label="Number of items" max_length="40" name="number_of_items" read_only="true" type="integer" virtual="true"/>

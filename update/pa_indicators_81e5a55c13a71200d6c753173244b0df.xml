@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_indicators">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators">
     <pa_indicators action="INSERT_OR_UPDATE">
         <aggregate>2</aggregate>
+        <benchmarking>false</benchmarking>
         <collect_breakdown_matrix>false</collect_breakdown_matrix>
         <collect_records>true</collect_records>
         <conditions/>
         <contributor/>
         <cube display_value="eWaste Requests">778623404f6b92005f5b01b18110c76d</cube>
+        <data_source/>
         <default_aggregate/>
         <default_chart_type>line</default_chart_type>
         <description>Cost of recycled CIs is measured daily as unit $.
@@ -17,13 +18,25 @@ with the following conditions:
 Created on Today</description>
         <direction>2</direction>
         <display>true</display>
+        <excluded_statistics/>
         <field>cost_of_items</field>
+        <forecast_base_periods>2</forecast_base_periods>
+        <forecast_base_start>00000000</forecast_base_start>
+        <forecast_base_type>1</forecast_base_type>
+        <forecast_lower_limit/>
+        <forecast_method>1</forecast_method>
+        <forecast_periods>2</forecast_periods>
+        <forecast_upper_limit/>
         <formula/>
         <formula_aggregate_whole>false</formula_aggregate_whole>
+        <formula_allow_null>false</formula_allow_null>
         <frequency>10</frequency>
+        <groups/>
         <has_managed_indicators>false</has_managed_indicators>
+        <id>29</id>
         <key>false</key>
         <label/>
+        <linked_indicator/>
         <live_group_profile/>
         <managed_breakdown/>
         <managed_element/>
@@ -38,12 +51,13 @@ Created on Today</description>
         <role_override>true</role_override>
         <roles/>
         <score_periods>-1</score_periods>
-        <scores_modified_at>2016-05-21 04:00:02</scores_modified_at>
+        <scores_modified_at>2020-04-02 04:00:05</scores_modified_at>
         <script/>
         <scripted>false</scripted>
         <show_delta>true</show_delta>
         <show_realtime_score>true</show_realtime_score>
         <snapshot_periods>-1</snapshot_periods>
+        <sql_statement/>
         <sys_class_name>pa_indicators</sys_class_name>
         <sys_created_by>patrick.schulte</sys_created_by>
         <sys_created_on>2016-05-18 15:23:48</sys_created_on>
@@ -51,7 +65,7 @@ Created on Today</description>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>81e5a55c13a71200d6c753173244b0df</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>212</sys_mod_count>
         <sys_name>Cost of recycled CIs</sys_name>
         <sys_overrides/>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
@@ -59,11 +73,12 @@ Created on Today</description>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>pa_indicators_81e5a55c13a71200d6c753173244b0df</sys_update_name>
-        <sys_updated_by>patrick.schulte</sys_updated_by>
-        <sys_updated_on>2016-05-18 15:30:04</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-07-31 04:00:05</sys_updated_on>
         <type>1</type>
         <unit display_value="$">20c365e2d7320100ba986f14ce6103b3</unit>
+        <users/>
         <value_when_nil>0</value_when_nil>
+        <visible_to/>
     </pa_indicators>
-    <sys_translated_text action="delete_multiple" query="documentkey=81e5a55c13a71200d6c753173244b0df"/>
 </record_update>

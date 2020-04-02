@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_snc_ewaste_ewaste_request" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -122,7 +121,7 @@
             <sys_created_by>patrick.schulte</sys_created_by>
             <sys_created_on>2016-05-18 00:57:51</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>cdb0d2d813e71200d6c753173244b07c</sys_id>
+            <sys_id>4e03087bdb50b200c2d6f8fdbf96193b</sys_id>
             <sys_mod_count>5</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>

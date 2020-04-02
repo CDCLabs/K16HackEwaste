@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_m2m_indicator_tags">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_indicator_tags">
     <pa_m2m_indicator_tags action="INSERT_OR_UPDATE">
         <indicator display_value="Cost of recycled CIs">81e5a55c13a71200d6c753173244b0df</indicator>
         <order/>
@@ -8,7 +7,6 @@
         <sys_created_on>2016-05-18 15:23:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>4de5a55c13a71200d6c753173244b0df</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Cost of recycled CIs.eWaste</sys_name>

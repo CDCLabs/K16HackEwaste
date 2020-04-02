@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_filter">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
         <filter table="sys_user">nameLIKEsha^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="LIKE" or="false" value="sha"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
@@ -27,6 +26,6 @@
         <sys_updated_on>2016-05-18 05:35:48</sys_updated_on>
         <table>sys_user</table>
         <title>mobile</title>
-        <user display_value="Chris Bui">a9f942444f2792005f5b01b18110c72b</user>
+        <user display_value="">a9f942444f2792005f5b01b18110c72b</user>
     </sys_filter>
 </record_update>

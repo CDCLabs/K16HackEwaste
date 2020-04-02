@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance_vlist">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
     <sp_instance_vlist action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -14,6 +13,7 @@
         <order>0</order>
         <order_by/>
         <order_direction>asc</order_direction>
+        <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="3">2731b2884fa792005f5b01b18110c7b3</sp_column>
@@ -38,4 +38,5 @@
         <url/>
         <widget_parameters/>
     </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd0c3e8c4fa792005f5b01b18110c7dc"/>
 </record_update>

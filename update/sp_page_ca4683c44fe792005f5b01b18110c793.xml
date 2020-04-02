@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_page">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
     <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
         <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
         <id>ku_ewaste</id>
         <internal>false</internal>
         <public>false</public>
@@ -23,4 +25,5 @@
         <sys_updated_on>2016-05-18 03:46:27</sys_updated_on>
         <title>ewaste</title>
     </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca4683c44fe792005f5b01b18110c793"/>
 </record_update>

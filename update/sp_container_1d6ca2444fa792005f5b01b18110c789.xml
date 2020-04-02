@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_container">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
     <sp_container action="INSERT_OR_UPDATE">
         <background_color/>
         <background_image>d852fa884fa792005f5b01b18110c7e4.iix?t=m</background_image>
@@ -25,17 +24,22 @@
         <sys_update_name>sp_container_1d6ca2444fa792005f5b01b18110c789</sys_update_name>
         <sys_updated_by>Ewanh</sys_updated_by>
         <sys_updated_on>2016-05-18 02:19:50</sys_updated_on>
+        <title/>
         <width>container</width>
     </sp_container>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color/>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
+        <encryption_context/>
         <file_name>background_image</file_name>
+        <hash/>
         <image_height/>
         <image_width/>
         <size_bytes>3077</size_bytes>
         <size_compressed>3064</size_compressed>
+        <state/>
         <sys_created_by>Ewanh</sys_created_by>
         <sys_created_on>2016-05-18 02:19:14</sys_created_on>
         <sys_id>d852fa884fa792005f5b01b18110c7e4</sys_id>

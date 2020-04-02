@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="eWaste Request">72bffe804fe792005f5b01b18110c749</sc_cat_item>
         <sc_category display_value="EWaste">567647c44fe792005f5b01b18110c713</sc_category>

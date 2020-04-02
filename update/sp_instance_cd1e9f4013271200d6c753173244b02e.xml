@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_instance">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
     <sp_instance action="INSERT_OR_UPDATE">
         <active>true</active>
         <class_name/>
@@ -8,10 +7,11 @@
         <glyph/>
         <id/>
         <order>0</order>
+        <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">c30fd78013271200d6c753173244b02b</sp_column>
-        <sp_widget display_value="SC Catalog Item">0fd6a6f247230200ba13a5554ee490b3</sp_widget>
+        <sp_widget display_value="SC Catalog Item Deprecated">0fd6a6f247230200ba13a5554ee490b3</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>larmstrong_admin</sys_created_by>
         <sys_created_on>2016-05-18 05:30:25</sys_created_on>
@@ -30,4 +30,5 @@
         <url/>
         <widget_parameters/>
     </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=cd1e9f4013271200d6c753173244b02e"/>
 </record_update>

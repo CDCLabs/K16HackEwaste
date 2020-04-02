@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_view">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
     <sys_ui_view action="INSERT_OR_UPDATE">
         <group/>
         <hidden>false</hidden>
@@ -8,7 +7,7 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>shamshad.admin</sys_created_by>
         <sys_created_on>2016-05-18 18:30:38</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b5a01e5813e71200d6c753173244b06e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Ewaste</sys_name>

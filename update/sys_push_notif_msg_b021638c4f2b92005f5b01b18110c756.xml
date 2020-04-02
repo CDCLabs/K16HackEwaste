@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_push_notif_msg">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
     <sys_push_notif_msg action="INSERT_OR_UPDATE">
         <message_string>Your eWaste request is scheduled for pickup @ ${expected_start}</message_string>
         <name>eWaste Request was scheduled</name>
-        <push_app display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <push_app display_value="ServiceNow Classic Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
         <push_message_content display_value="Generic Record Payload">4f9c2ec0d72102006b0f8ebc5e610327</push_message_content>
         <subject/>
         <sys_class_name>sys_push_notif_msg</sys_class_name>

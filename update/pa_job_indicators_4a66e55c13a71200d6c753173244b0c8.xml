@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_job_indicators">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_job_indicators">
     <pa_job_indicators action="INSERT_OR_UPDATE">
         <active>true</active>
         <collect>1</collect>

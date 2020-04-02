@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="ua_table_licensing_config">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
         <name>x_snc_ewaste_ewaste_item</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
         <owner_condition table="x_snc_ewaste_ewaste_item">sys_created_by=javascript:gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </owner_condition>
@@ -10,14 +15,14 @@
         <sys_created_by>patrick.schulte</sys_created_by>
         <sys_created_on>2016-05-18 00:28:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>e6a092d813e71200d6c753173244b0a9</sys_id>
+        <sys_id>a6f2447bdb50b200c2d6f8fdbf9619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_ewaste_ewaste_item</sys_name>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
-        <sys_update_name>ua_table_licensing_config_e6a092d813e71200d6c753173244b0a9</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_a6f2447bdb50b200c2d6f8fdbf9619ec</sys_update_name>
         <sys_updated_by>patrick.schulte</sys_updated_by>
         <sys_updated_on>2016-05-18 00:28:46</sys_updated_on>
     </ua_table_licensing_config>

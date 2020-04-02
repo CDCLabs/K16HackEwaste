@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="62c17e884fa792005f5b01b18110c7f4" sys_domain="global" table="x_snc_ewaste_ewaste_item" version="3" view="Mobile">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ewaste_request</element>
@@ -9,7 +8,7 @@
             <sys_id>2a0f678c13271200d6c753173244b0aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="4b201531db211200c2d6d8fdbf961956">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
             <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
@@ -23,7 +22,7 @@
             <sys_id>aa0f678c13271200d6c753173244b0aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="4b201531db211200c2d6d8fdbf961956">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
             <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
@@ -37,7 +36,7 @@
             <sys_id>2e0f678c13271200d6c753173244b0aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="4b201531db211200c2d6d8fdbf961956">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
             <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
@@ -51,7 +50,7 @@
             <sys_id>ae0f678c13271200d6c753173244b0aa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="4b201531db211200c2d6d8fdbf961956">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
             <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
@@ -65,7 +64,7 @@
             <sys_id>220f678c13271200d6c753173244b0ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="4b201531db211200c2d6d8fdbf961956">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
             <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
@@ -79,7 +78,7 @@
             <sys_id>a20f678c13271200d6c753173244b0ab</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="0ea7a0cc4faf52005f5b01b18110c730">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_ewaste_ewaste_item" sys_domain="global" view="4b201531db211200c2d6d8fdbf961956">62c17e884fa792005f5b01b18110c7f4</sys_ui_section>
             <sys_updated_by>patrick.schulte</sys_updated_by>
             <sys_updated_on>2016-05-18 06:44:31</sys_updated_on>
             <sys_user/>
@@ -109,7 +108,7 @@
             <sys_updated_on>2016-05-18 02:16:55</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Mobile" name="Mobile">0ea7a0cc4faf52005f5b01b18110c730</view>
+            <view display_value="Mobile" name="Mobile">4b201531db211200c2d6d8fdbf961956</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

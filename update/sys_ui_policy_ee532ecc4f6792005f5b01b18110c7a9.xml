@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_policy">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_snc_ewaste_ewaste_request">stateIN2,3,4,7^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="2,3,4,7"/>
+        <conditions table="x_snc_ewaste_ewaste_request">stateIN2,3,4,7^EQ<item display_value="2,3,4,7" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="2,3,4,7"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
         <global>true</global>
         <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
         <model_id/>
         <model_table/>
         <on_load>true</on_load>

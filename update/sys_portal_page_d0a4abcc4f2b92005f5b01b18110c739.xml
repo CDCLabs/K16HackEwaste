@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2016-05-21 17:00:47">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-04-02 23:49:11">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across_knowledge">46978421370031002d2440ed9dbe5db7</layout>
         <order/>
-        <read_roles/>
+        <read_roles>snc_internal</read_roles>
         <roles>x_snc_ewaste.admin</roles>
         <selectable>true</selectable>
         <sys_class_name>sys_portal_page</sys_class_name>
@@ -13,7 +12,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d0a4abcc4f2b92005f5b01b18110c739</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>eWaste Overview</sys_name>
         <sys_overrides/>
         <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
@@ -21,8 +20,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
         <sys_update_name>sys_portal_page_d0a4abcc4f2b92005f5b01b18110c739</sys_update_name>
-        <sys_updated_by>patrick.schulte</sys_updated_by>
-        <sys_updated_on>2016-05-18 06:00:12</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-02-17 07:30:47</sys_updated_on>
         <title>eWaste Overview</title>
         <user/>
         <view>ewaste</view>

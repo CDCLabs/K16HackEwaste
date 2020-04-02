@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_ci_hardware" version="2" view="">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -132,7 +131,7 @@
             <sys_update_name>sys_ui_list_cmdb_ci_hardware_null</sys_update_name>
             <sys_updated_by>shamshad.admin</sys_updated_by>
             <sys_updated_on>2016-05-18 04:14:49</sys_updated_on>
-            <sys_user display_value="Shamshad Khan">877a8e0813631200d6c753173244b06b</sys_user>
+            <sys_user display_value="">877a8e0813631200d6c753173244b06b</sys_user>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

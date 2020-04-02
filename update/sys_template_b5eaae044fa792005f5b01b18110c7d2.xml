@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_template">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
     <sys_template action="INSERT_OR_UPDATE">
         <active>true</active>
         <global>false</global>
@@ -28,7 +27,7 @@
         <sys_updated_on>2016-05-18 01:51:06</sys_updated_on>
         <table>x_snc_ewaste_ewaste_request</table>
         <template>short_description=barcode test!!!!^EQ</template>
-        <user display_value="Chris Bui">a9f942444f2792005f5b01b18110c72b</user>
+        <user display_value="">a9f942444f2792005f5b01b18110c72b</user>
         <view/>
     </sys_template>
 </record_update>

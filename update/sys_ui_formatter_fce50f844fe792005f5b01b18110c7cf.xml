@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_formatter">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
     <sys_ui_formatter action="INSERT_OR_UPDATE">
         <active>true</active>
+        <angular_module/>
         <formatter>process_flow.xml</formatter>
         <name>Process Flow</name>
         <sys_class_name>sys_ui_formatter</sys_class_name>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Requests">137388fbdb50b200c2d6f8fdbf9619e4</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2016-05-18 08:24:29">4306695c13a71200d6c753173244b037</portal_widget>
+        <posx>0</posx>
+        <posy>10</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>shamshad.admin</sys_created_by>
+        <sys_created_on>2017-01-20 08:10:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5f7388fbdb50b200c2d6f8fdbf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EWaste" source="x_snc_ewaste">c9a0de8813631200d6c753173244b0d8</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="EWaste">c9a0de8813631200d6c753173244b0d8</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_5f7388fbdb50b200c2d6f8fdbf9619e4</sys_update_name>
+        <sys_updated_by>shamshad.admin</sys_updated_by>
+        <sys_updated_on>2017-01-20 08:10:51</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

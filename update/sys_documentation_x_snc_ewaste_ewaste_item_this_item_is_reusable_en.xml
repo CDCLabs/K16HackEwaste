@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="this_item_is_reusable" label="This item is reusable" language="en" table="x_snc_ewaste_ewaste_item">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>this_item_is_reusable</element>

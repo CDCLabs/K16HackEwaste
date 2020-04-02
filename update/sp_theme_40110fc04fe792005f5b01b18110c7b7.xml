@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_theme">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
     <sp_theme action="INSERT_OR_UPDATE">
         <css_variables>$sp-logo-margin-x: 		15px !default;&#13;
 $sp-tagline-color:		$text-color !default;&#13;
@@ -11,7 +10,7 @@ $body-bg: 				#f0f3f4 !default;&#13;
 </css_variables>
         <footer/>
         <footer_fixed>true</footer_fixed>
-        <header display_value="Stock Header ">bf5ec2f2cb10120000f8d856634c9c0c</header>
+        <header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header>
         <name>Stock</name>
         <navbar_fixed>true</navbar_fixed>
         <sys_class_name>sp_theme</sys_class_name>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_scripts">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_scripts">
     <pa_scripts action="INSERT_OR_UPDATE">
         <arguments>hardware.cost</arguments>
         <description/>
@@ -29,5 +28,4 @@ else {
         <sys_updated_on>2016-05-18 15:05:51</sys_updated_on>
         <table>x_snc_ewaste_ewaste_item</table>
     </pa_scripts>
-    <sys_translated_text action="delete_multiple" query="documentkey=285125d813a71200d6c753173244b043"/>
 </record_update>

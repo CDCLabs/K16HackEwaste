@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_filter">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
         <filter table="cmn_location">nameSTARTSWITH^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
@@ -27,6 +26,6 @@
         <sys_updated_on>2016-05-18 06:41:42</sys_updated_on>
         <table>cmn_location</table>
         <title>mobile</title>
-        <user display_value="Ewan Hruska">72f9c28013231200d6c753173244b090</user>
+        <user display_value="">72f9c28013231200d6c753173244b090</user>
     </sys_filter>
 </record_update>

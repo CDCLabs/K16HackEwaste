@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="eWaste Item" max_length="40" name="x_snc_ewaste_ewaste_item" type="collection">
         <element attributes="barcode=true" label="Barcode" max_length="40" name="barcode" type="string"/>
         <element label="eWaste Request" mandatory="true" max_length="32" name="ewaste_request" read_only="true" reference="x_snc_ewaste_ewaste_request" reference_cascade_rule="delete" type="reference"/>

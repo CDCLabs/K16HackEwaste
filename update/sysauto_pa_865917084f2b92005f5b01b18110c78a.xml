@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sysauto_pa">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa">
     <sysauto_pa action="INSERT_OR_UPDATE">
         <active>false</active>
+        <benchmarking>false</benchmarking>
+        <collect>scores_text</collect>
         <condition/>
         <conditional>false</conditional>
         <description/>
+        <kill_job>false</kill_job>
         <name>eWaste Historic collection</name>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
@@ -26,7 +28,6 @@
         <sys_created_on>2016-05-18 05:10:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>865917084f2b92005f5b01b18110c78a</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>eWaste Historic collection</sys_name>
@@ -39,5 +40,4 @@
         <sys_updated_on>2016-05-18 15:26:59</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_pa>
-    <sys_translated_text action="delete_multiple" query="documentkey=865917084f2b92005f5b01b18110c78a"/>
 </record_update>

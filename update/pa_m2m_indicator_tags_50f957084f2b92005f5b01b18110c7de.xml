@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_m2m_indicator_tags">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_indicator_tags">
     <pa_m2m_indicator_tags action="INSERT_OR_UPDATE">
         <indicator display_value="Number of eWaste requests">1cf81fc44f2b92005f5b01b18110c72c</indicator>
         <order/>
@@ -8,7 +7,6 @@
         <sys_created_on>2016-05-18 05:12:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>50f957084f2b92005f5b01b18110c7de</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ewaste_item_indicator.eWaste</sys_name>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_scope_script_access">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_script_access">
     <sys_scope_script_access action="INSERT_OR_UPDATE">
         <example_stack_trace>Default-thread-8
 	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:234)

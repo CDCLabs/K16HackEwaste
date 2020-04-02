@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="pa_dashboards_group">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_group">
     <pa_dashboards_group action="INSERT_OR_UPDATE">
         <groups/>
         <name>ewaste</name>

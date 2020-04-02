@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_cubes">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
     <pa_cubes action="INSERT_OR_UPDATE">
+        <benchmarking>false</benchmarking>
         <conditions table="x_snc_ewaste_ewaste_item">sys_created_onONToday@javascript:gs.daysAgoStart(0)@javascript:gs.daysAgoEnd(0)^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.daysAgoStart(0)@javascript:gs.daysAgoEnd(0)"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
@@ -31,5 +31,4 @@
         <sys_updated_by>patrick.schulte</sys_updated_by>
         <sys_updated_on>2016-05-18 06:11:08</sys_updated_on>
     </pa_cubes>
-    <sys_translated_text action="delete_multiple" query="documentkey=b64723c04f6b92005f5b01b18110c7b5"/>
 </record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sp_container">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
     <sp_container action="INSERT_OR_UPDATE">
         <background_color/>
         <background_image/>
@@ -25,6 +24,7 @@
         <sys_update_name>sp_container_e6317e484fa792005f5b01b18110c7f2</sys_update_name>
         <sys_updated_by>Ewanh</sys_updated_by>
         <sys_updated_on>2016-05-18 02:14:27</sys_updated_on>
+        <title/>
         <width>container</width>
     </sp_container>
 </record_update>

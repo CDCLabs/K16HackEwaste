@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_db_object">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
+        <caller_access/>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
         <create_access>false</create_access>
@@ -17,8 +17,11 @@
         <number_ref display_value="EWASTE">9158de4013a31200d6c753173244b036</number_ref>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">bfd8e8004fef52005f5b01b18110c78f</super_class>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">31f01171db211200c2d6d8fdbf9619ca</super_class>
+        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
         <sys_created_by>shamshad.admin</sys_created_by>
         <sys_created_on>2016-05-18 00:25:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>

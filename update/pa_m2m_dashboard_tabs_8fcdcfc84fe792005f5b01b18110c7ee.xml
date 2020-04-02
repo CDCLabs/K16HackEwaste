@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
     <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
         <dashboard display_value="eWaste Management">128d8fc84fe792005f5b01b18110c766</dashboard>
         <home>false</home>
+        <homepage/>
         <order>1</order>
         <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
         <sys_created_by>Ewanh</sys_created_by>
         <sys_created_on>2016-05-18 04:19:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>8fcdcfc84fe792005f5b01b18110c7ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>128d8fc84fe792005f5b01b18110c766</sys_name>
